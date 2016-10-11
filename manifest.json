@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+
+    "name": "TabCrumbs",
+    "description": "Displays the history of the current tab.",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "images/tab_crumbs_128.png",
+        "default_popup": "src/html/tabCrumbs.html",
+        "default_title": "TabCrumbs"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "icons": { 
+        "16": "images/tab_crumbs_16.png",
+        "48": "images/tab_crumbs_48.png",
+        "128": "images/tab_crumbs_128.png"
+    }
+}
